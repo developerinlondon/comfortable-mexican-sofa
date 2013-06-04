@@ -1,0 +1,6 @@
+
+- menu_items = Cms::Menu.find(menu_id).menu_items
+
+- menu_items.each do |menu_item|
+  - url = url_to_menu_item(menu_item)
+  %li{class: ('active' if current_page?(url))}= link_to_menu_item(menu_item)
