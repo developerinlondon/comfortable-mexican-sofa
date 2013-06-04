@@ -8,7 +8,5 @@ class Cms::MenuItem < ActiveRecord::Base
     :presence   => true
   validates :label, 
     :presence   => true
-#  validates :menu_item_type, 
-#    :presence   => true
   
 end

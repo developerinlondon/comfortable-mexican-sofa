@@ -54,7 +54,6 @@ protected
           flash[:error] = I18n.t('cms.menus.not_found')
           redirect_to :action => :index
       end
-      
 
 
 end
